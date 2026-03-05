@@ -6,7 +6,7 @@ The pyramid alignment strategy allows large TIFF files to be processed in under 
 
 | Before | After |
 |--------|-------|
-| <img src="assets/emir_before.jpg" width="400"/> | <img src="assets/emir_after.jpg" width="400"/> |
+| <img src="emir_before.jpg" width="400"/> | <img src="emir_after.jpg" width="400"/> |
 
 
 
