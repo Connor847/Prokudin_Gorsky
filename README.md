@@ -24,4 +24,3 @@ Then run:
 
 ### Input Format
 The script expects a single `.tif` file containing three equal-height grayscale strips stacked vertically in order: Blue, Green, Red. This is the standard format for digitized Prokudin-Gorsky glass plate scans, available from the [Library of Congress](https://www.loc.gov/collections/prokudin-gorsky/).
-```
