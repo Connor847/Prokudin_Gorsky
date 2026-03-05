@@ -1,16 +1,13 @@
-# Prokudin_Gorsky
-This script takes the Prokudin Gorsky images taken in the early 1900s. These images create colorized images by taking 3 separate RGB exposures and combining them into a single image. The script below does this automatically by taking 3 channel black and white images as seen here
+# Prokudin-Gorsky Image Colorization
 
+Taken in the early 1900s, the Prokudin-Gorsky images capture scenes using three separate RGB exposures on glass plates. This script automatically combines those three black-and-white channel images into a single full-color image using pyramid alignment and border detection.
 
-![Before](emir_before.jpg)
+The pyramid alignment strategy allows large TIFF files to be processed in under a minute while maintaining high alignment quality. Border detection crops each channel prior to alignment, reducing image size and producing a cleaner final result.
 
+| Before | After |
+|--------|-------|
+| ![Before](assets/emir_before.jpg) | ![After](assets/emir_after.jpg) |
 
-and converts them into a single colorized image
-
-
-![After](emir_after.jpg)
-
-The script uses a pyramid alignment strategy on gradient detection. This allows for large TIFF files to be aligned in a relatively short amount of time (under 1 minute) while ensuring high quality of alignment in dense images. Additionally, border detection ensures that images are cropped prior to alignment to decrease the size of the image going into alignment and provide a more aesthetic final image. 
 
 
 ## Usage
